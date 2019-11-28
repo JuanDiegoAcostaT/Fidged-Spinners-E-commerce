@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+:root{
+--principal-color: #3A8CE8;
+--white-color: white;
+--black-color: black;
+
+--normal: 12px;
+
+--space: 20px;
+
+--box: 0 0 20px var(--black-color);
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+    font-size: var(--normal);
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    background-color: var(--principal-color);
+    padding: var(--space);
+    color: rgb(126, 110, 110);
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    padding-right: 25px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: var(--white-color);
+    
+}
+
+nav li a:hover{
+
+    color: var(--black-color);
+
+}
+
+.main_section{
+    padding: 5%;
+    text-align: center;
+}
+
+.products{
+
+    background-image: url('../images/formasdefondo.png');
+    height: 639px;
+    max-width: 100%;
+    padding: 10%;
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.product {
+    padding: 20px;
+    margin-top: -20px;
+}
+
+.product .content {
+    text-align: center;
+    background-color: var(--white-color);
+    padding: 50px;
+    box-shadow: var(--box);
+}
+
+.main_button{
+
+    background-color: var(--principal-color);
+    color: var(--white-color);
+    width: 100%;
+    padding: var(--space);
+    font-size: 17px;
+    border-radius: 20px;
+    border: none;
+    opacity: 1;
+    transition-duration: .3s;
+    margin-top: 20px;
+   
+
+}
+
+.main_button:hover {
+
+    transform: scale(1.1);
+   
+
+}
+
+
+.characters {
+    display: flex;
+    /* padding-top: 20px; */
+    justify-content: space-evenly;
+}
+
+.character{
+    text-align: center;
+    padding: 10%;
+}
+
+.character p {
+    font-size: 15px;
+}
+
+.references_title {
+    padding-left: 530px;
+    font-size: 50px;
+    color: var(--principal-color);
+}
+
+.references{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.comments{
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: var(--box);
+    background: white;
+    width: 1200px;
+   
+}
+
+
+.comment{
+    text-align: center;
+    padding: 5%;
+    
+    
+}
+
+footer {
+    padding: var(--space);
+    background-color: var(--principal-color);
+   
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+footer li {
+    list-style: none;
+    
+}
+
+footer li a {
+
+    text-decoration: none;
+    color: white;
+}
+footer li a:hover{
+
+    color: var(--black-color);
+
+}

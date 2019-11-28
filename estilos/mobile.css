@@ -1,0 +1,30 @@
+@media (max-width: 600px) {
+
+    .products {
+        display: inherit;
+        height: auto;
+    }
+
+    .product {
+        margin-top: auto;
+    }
+
+    .main_section{
+        padding: 4%;
+    }
+
+    .characters{
+        display: inherit;
+    }
+
+    .comments{
+        flex-wrap: wrap;
+        width: 400px;
+        height: 1888px;
+    }
+
+    .references_title{
+        padding-left: 25%;
+    }
+
+}

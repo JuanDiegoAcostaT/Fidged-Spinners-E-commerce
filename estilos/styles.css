@@ -131,6 +131,7 @@ nav li a:hover{
     justify-content: center;
     align-items: center;
     padding-bottom: 40px;
+   
 }
 
 .comments{
@@ -139,6 +140,7 @@ nav li a:hover{
     box-shadow: var(--box);
     background: white;
     width: 1200px;
+   
    
 }
 

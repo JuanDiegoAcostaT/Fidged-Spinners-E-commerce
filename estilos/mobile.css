@@ -38,6 +38,9 @@
 
     }
 
+    .products{
+        object-fit: cover;
+    }
 
     .content {
         display: flex;
@@ -50,6 +53,7 @@
 
     padding-left: -100px;  
     height: 150px;
+    object-fit: cover;
 
 }
 

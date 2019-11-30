@@ -74,7 +74,7 @@ nav li a:hover{
     margin-top: -20px;
 }
 
-.product .content {
+ .content {
     text-align: center;
     background-color: var(--white-color);
     padding: 50px;
@@ -93,6 +93,7 @@ nav li a:hover{
     opacity: 1;
     transition-duration: .3s;
     margin-top: 20px;
+    cursor: pointer;
    
 
 }

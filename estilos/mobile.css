@@ -28,3 +28,33 @@
     }
 
 }
+
+@media (max-width: 360px) {
+
+
+    .references_title{
+
+        padding-left: 25px;
+
+    }
+
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    
+    .product__content--img{
+
+    padding-left: -100px;  
+    height: 150px;
+
+}
+
+nav li {
+    padding-right: 10px;
+}
+
+}

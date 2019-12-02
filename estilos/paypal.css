@@ -1,0 +1,18 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #2380E8;
+    text-align: center;
+    color: var(--white-color);   
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+
+.content__paypal {
+
+   
+
+}

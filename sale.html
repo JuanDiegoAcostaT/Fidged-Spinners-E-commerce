@@ -20,7 +20,7 @@
         <div class="nav_options">
             <ul>
                 <li><a href=""> FAQ`S</a></li>
-                <li><a href=""> Producto y Descripcion</a></li>
+                <li><a href="./product.html"> Producto y Descripcion</a></li>
             </ul>
         </div>
     </nav>
@@ -38,19 +38,19 @@
             </div>
             <div class="col-8">
                 <div class="modulo__pago">
-                    <form action="http://google.com">
+                    <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WFGZXAT7K3BAA" method="post">
                         <label for="name">Nombre</label>
                         <br> <br>
-                        <input type="text" name="name"  class="data" >
+                        <input type="text" type="hidden" name="first_name"  class="data"  value="Juan">
                         <br> <br>
                         <label for="mail">E-mail</label>
                         <br> <br>
-                        <input type="text" name="mail" class="data" >
+                        <input type="email" type="hidden" name="mail" class="data"  value="example@gmail.com">
                         <br> <br>
                         <label for="phone">Telefono</label>
                         <br> <br>
-                        <input type="text" name="phone" placeholder="+(indicador)" class="data">
-                        <input type="submit" value="Enviar" class="main_button" name="submit">
+                        <input type="text" type="hidden" name="night_phone_a" placeholder="+(indicador)" class="data" value="+57 **********">
+                        <input type="submit" value="Confirmar Pago (Paypal)" class="main_button" name="submit" target="_blank">
                     </form>
                 </div>
             </div>

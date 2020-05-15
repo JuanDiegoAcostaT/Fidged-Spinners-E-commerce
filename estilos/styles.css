@@ -158,6 +158,18 @@ label{
     
 }
 
+.row__product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row__product--info {
+    display: flex;
+    justify-content: space-around;
+}
+
 .modulo__pago{
     background-color: var(--white-color);
     box-shadow: var(--box);
@@ -189,7 +201,7 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+    max-width: 100%;
 }
 
 

@@ -6,10 +6,10 @@ Fidged`s Store web with paypal pay method.
 
 - Html
 
--MediaQueries
+- MediaQueries
 
--Css
+- Css
 
--Paypal
+- Paypal
 
 <img src="https://i.imgur.com/yLD15fU.png" />
